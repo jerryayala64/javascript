@@ -16,6 +16,6 @@ rInt	= randomInteger();
 if (rInt == 3)count++;
 // console.log(rInt+",");
 
-process.stdout.write(rInt+"");
+process.stdout.write(rInt+" ");
 }
 process.stdout.write("\n\n\n3 hit "+count+" times.");
